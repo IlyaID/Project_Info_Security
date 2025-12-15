@@ -1,2 +1,12 @@
 /firmware/build
-/firmware/.vscode/
+/firmware/.vscode
+/software/basic
+/software/basic_v0
+/software/.vscode
+/software/__pycache__
+/software/basic (2)
+/software/ *.zip
+/software/ *.txt
+/software/ *.csv
+/software/espcsienv
+
