@@ -9,3 +9,5 @@
 /software/ *.txt
 /software/ *.csv
 /software/espcsienv
+/software/software_lite/espvenv
+

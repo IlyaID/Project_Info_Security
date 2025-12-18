@@ -103,7 +103,7 @@ def main():
         alice.send_cmd(f"ping --timeout {PHASE_DURATION}")
         
         for i in range(PHASE_DURATION + 1):
-            sys.stdout.write(f"\rPkts: Bob={bob.packet_count} | Eve={eve.packet_count}")
+            sys.stdout.write(f"\rPkts: Bob={bob.packet_count}")
             sys.stdout.flush()
             time.sleep(1)
         print("")

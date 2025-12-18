@@ -1,0 +1,8 @@
+{
+    "idf.espIdfPath": "/home/ilya/esp/esp-idf",
+    "idf.toolsPath": "/home/ilya/.espressif",
+    "idf.pythonInstallPath": "/bin/python3",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-builtin.cfg"
+    ]
+}
