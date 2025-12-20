@@ -28,6 +28,8 @@ bool radio_is_inited(void);
 /** Консольные команды: radio_init, radio_info */
 void register_radio(void);
 
+wifi_bandwidth_t radio_get_bandwidth(void); 
+
 #ifdef __cplusplus
 }
 #endif

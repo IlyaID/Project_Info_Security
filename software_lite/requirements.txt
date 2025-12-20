@@ -1,0 +1,4 @@
+pyserial>=3.5
+numpy>=1.21.0
+matplotlib>=3.4.0
+pycryptodome>=3.10.0
