@@ -1,14 +1,6 @@
 /firmware/build
 /firmware/.vscode
-/software/basic
-/software/basic_v0
-/software/.vscode
-/software/__pycache__
-/software/basic (2)
-/software/ *.zip
-/software/ *.txt
-/software/ *.csv
-/software/espcsienv
+/espcsienv
 /software/software_lite/espvenv
 /software_lite/CSI_key_1.py
 /software_lite/CSI_key_2.py
