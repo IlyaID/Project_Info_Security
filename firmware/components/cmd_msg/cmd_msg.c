@@ -29,8 +29,8 @@ static void msg_espnow_recv_cb(const esp_now_recv_info_t *info, const uint8_t *d
              info->src_addr[3], info->src_addr[4], info->src_addr[5]);
 
     /* Ограничиваем вывод */
-    int print_len = (len > 60) ? 60 : len;
-    printf("\n[MSG from %s]: %.*s%s\n", mac_str, print_len, data, (len > 60 ? "..." : ""));
+    int print_len = (len > 255) ? 255 : len;
+    printf("\n[MSG from %s]: %.*s%s\n", mac_str, print_len, data, (len > 255 ? "..." : ""));
 }
 
 /* --- Init --- */
